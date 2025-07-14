@@ -11,16 +11,27 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 ## Project Structure
 .
 ├── Keyword_Detection.ipynb
+
 ├── datasets/
+
 │   ├── train.csv
+
 │   ├── test.csv
+
 │   ├── keyword2tumor_type.csv
+
 │   └── htmls/
+
 │       ├── 0.html
+
 │       ├── 1.html
+
 │       └── ... (other html files)
+
 ├── requirements.txt
+
 └── README.md
+
 └── .gitignore
 
 ## Features
