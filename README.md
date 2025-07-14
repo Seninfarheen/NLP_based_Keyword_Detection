@@ -9,7 +9,7 @@ The core task is to build a classification algorithm that takes an HTML page as 
 The project outputs a `submission.csv` file for test data with document IDs and predictions, along with a Jupyter notebook detailing the methodology.
 
 ## Project Structure
-.
+``` bash
 .
 ├── datasets
 │   ├── htmls
@@ -33,6 +33,7 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 │   └── Keyword_Detection.ipynb
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Features
