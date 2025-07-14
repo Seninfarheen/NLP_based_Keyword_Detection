@@ -10,7 +10,8 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 
 ## Project Structure
 .
-├── Keyword_Detection.ipynb
+├── Notebooks
+    |--Keyword_Detection.ipynb
 ├── datasets/
 │   ├── train.csv
 │   ├── test.csv
@@ -19,6 +20,8 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 │       ├── 0.html
 │       ├── 1.html
 │       └── ... (other html files)
+├── Model_Predictions
+    ├──predictions from different models
 ├── requirements.txt
 └── README.md
 └── .gitignore
