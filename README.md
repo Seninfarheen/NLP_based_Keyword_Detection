@@ -11,7 +11,9 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 ## Project Structure
 .
 ├── Notebooks
+
     |--Keyword_Detection.ipynb
+    
 ├── Keyword_Detection.ipynb
 
 ├── datasets/
