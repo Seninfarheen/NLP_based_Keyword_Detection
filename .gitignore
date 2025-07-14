@@ -1,0 +1,22 @@
+Python
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.vscode/
+
+Jupyter Notebook
+.ipynb_checkpoints/*
+*.ipynb_checkpoints
+*.bak
+
+
+Logs
+*.log
+
+Misc
+.DS_Store
