@@ -1,8 +1,0 @@
-pandas
-numpy
-matplotlib
-seaborn
-beautifulsoup4
-lxml
-scikit-learn
-gensim
