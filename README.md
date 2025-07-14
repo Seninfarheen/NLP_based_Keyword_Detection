@@ -10,26 +10,31 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 
 ## Project Structure
 .
-├── Notebooks
-│   └── Keyword_Detection.ipynb
-├── README.md
-├── .gitignore
+.
 ├── datasets
 │   ├── htmls
 │   │   ├── 0.html
 │   │   ├── 1.html
-│   │   └── ...
+│   │   ├── 10.html
+│   │   ├── ...
+│   │   └── 99.html
 │   ├── keyword2tumor_type.csv
 │   ├── test.csv
 │   └── train.csv
-└── Model_Predictions
-    ├── Gradient_Boosting_submission.csv
-    ├── Logistic_Regression_submission.csv
-    ├── Naïve_Bayes_(ComplementNB)_submission.csv
-    ├── Random_Forest_submission.csv
-    └── Support_Vector_Machine_submission.csv
+├── LICENSE
+├── Model_Predictions
+│   ├── Gradient_Boosting_submission.csv
+│   ├── Logistic_Regression_submission.csv
+│   ├── Naïve_Bayes_(ComplementNB)_submission.csv
+│   ├── Random_Forest_submission.csv
+│   ├── Support_Vector_Machine_submission.csv
+│   └── unique_word_count_distribution.png
+├── Notebooks
+│   └── Keyword_Detection.ipynb
+├── README.md
+└── requirements.txt
 
-    
+
 ## Features
 
 * **HTML Parsing:** Extracts text content from raw HTML files.
