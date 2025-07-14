@@ -14,7 +14,7 @@ The project outputs a `submission.csv` file for test data with document IDs and 
 
 ├── datasets/
 
-│   ├── train.csv
+   ├── train.csv
 
 │   ├── test.csv
 
